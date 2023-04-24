@@ -2,7 +2,7 @@ Steps to run Application:
 
 1.First of all create and activate the virtual environment.
 
-2.After activating the virtual environment install all the dependencies by command pip install -r requirements.txt
+2.After activating the virtual environment install all the dependencies by command pip install -r requirements.txt make sure u are inside task folder before installing dependencies.
 
 3. Now before running migrations,in your settings.py comment out 'django.contrib.admin' from installed app and admin url from urls.py of settings.
 
