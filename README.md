@@ -4,9 +4,13 @@ Steps to run Application:
 
 2.After activating the virtual environment install all the dependencies by command pip install -r requirements.txt
 
-3.Run command python manage.py makemigrations and python manage.py migrate
+3. Now before running migrations,in your settings.py comment out 'django.contrib.admin' from installed app and admin url from urls.py of settings.
 
-4. Once migrations has been run run the application by python manage.py runserver
+4. Now run 'python manage.py makemigrations app' and 'python manage.py migrate app'.
+
+5.Now uncomment the 'django.contrib.admin' and admin url from settings and run command 'python manage.py makemigrations' and 'python manage.py migrate'.
+
+4. Once migrations has been done,run the application by python manage.py runserver
 
 5. Now register with your Email id and contact number.After successful registration u can login into account.
 
